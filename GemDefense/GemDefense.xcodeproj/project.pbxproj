@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DE09025D200732CB00815439 /* Damage.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE09025C200732CB00815439 /* Damage.swift */; };
+		DE09025F2007339300815439 /* Armor.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE09025E2007339300815439 /* Armor.swift */; };
+		DE68BF4D1CF15D33006B02F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE68BF4C1CF15D33006B02F1 /* AppDelegate.swift */; };
+		DE68BF511CF15D33006B02F1 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE68BF501CF15D33006B02F1 /* GameScene.swift */; };
+		DE68BF531CF15D33006B02F1 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE68BF521CF15D33006B02F1 /* GameViewController.swift */; };
+		DE68BF561CF15D33006B02F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE68BF541CF15D33006B02F1 /* Main.storyboard */; };
+		DE68BF581CF15D33006B02F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE68BF571CF15D33006B02F1 /* Assets.xcassets */; };
+		DE68BF5B1CF15D33006B02F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE68BF591CF15D33006B02F1 /* LaunchScreen.storyboard */; };
+		DE68BF661CF15D33006B02F1 /* GemDefenseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE68BF651CF15D33006B02F1 /* GemDefenseTests.swift */; };
+		DE68BF711CF15D33006B02F1 /* GemDefenseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE68BF701CF15D33006B02F1 /* GemDefenseUITests.swift */; };
+		DE68BF811CF1632C006B02F1 /* Tower.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE68BF801CF1632C006B02F1 /* Tower.swift */; };
+		DE68BF8D1CF54169006B02F1 /* astar.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE68BF8A1CF54169006B02F1 /* astar.swift */; };
+		DE68BF8E1CF54169006B02F1 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE68BF8B1CF54169006B02F1 /* Map.swift */; };
+		DE68BF8F1CF54169006B02F1 /* SwiftPriorityQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE68BF8C1CF54169006B02F1 /* SwiftPriorityQueue.swift */; };
+		DE68BF911CF7FB23006B02F1 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE68BF901CF7FB23006B02F1 /* Enemy.swift */; };
+		DE8F84E61DC3D9BE008FDEB4 /* SKMultilineLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8F84E51DC3D9BE008FDEB4 /* SKMultilineLabel.swift */; };
+		DEAFA8471DA0B786008D61D4 /* UI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAFA8461DA0B785008D61D4 /* UI.swift */; };
+		DEAFA8491DA0BD1C008D61D4 /* GDButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAFA8481DA0BD1C008D61D4 /* GDButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DE68BF621CF15D33006B02F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE68BF411CF15D32006B02F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE68BF481CF15D32006B02F1;
+			remoteInfo = GemDefense;
+		};
+		DE68BF6D1CF15D33006B02F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DE68BF411CF15D32006B02F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DE68BF481CF15D32006B02F1;
+			remoteInfo = GemDefense;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DE09025C200732CB00815439 /* Damage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Damage.swift; sourceTree = "<group>"; };
+		DE09025E2007339300815439 /* Armor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Armor.swift; sourceTree = "<group>"; };
+		DE68BF491CF15D32006B02F1 /* GemDefense.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GemDefense.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE68BF4C1CF15D33006B02F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DE68BF501CF15D33006B02F1 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		DE68BF521CF15D33006B02F1 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		DE68BF551CF15D33006B02F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DE68BF571CF15D33006B02F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DE68BF5A1CF15D33006B02F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DE68BF5C1CF15D33006B02F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE68BF611CF15D33006B02F1 /* GemDefenseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GemDefenseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE68BF651CF15D33006B02F1 /* GemDefenseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemDefenseTests.swift; sourceTree = "<group>"; };
+		DE68BF671CF15D33006B02F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE68BF6C1CF15D33006B02F1 /* GemDefenseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GemDefenseUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE68BF701CF15D33006B02F1 /* GemDefenseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GemDefenseUITests.swift; sourceTree = "<group>"; };
+		DE68BF721CF15D33006B02F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE68BF801CF1632C006B02F1 /* Tower.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tower.swift; sourceTree = "<group>"; };
+		DE68BF8A1CF54169006B02F1 /* astar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = astar.swift; sourceTree = "<group>"; };
+		DE68BF8B1CF54169006B02F1 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		DE68BF8C1CF54169006B02F1 /* SwiftPriorityQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftPriorityQueue.swift; sourceTree = "<group>"; };
+		DE68BF901CF7FB23006B02F1 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		DE8F84E51DC3D9BE008FDEB4 /* SKMultilineLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SKMultilineLabel.swift; sourceTree = "<group>"; };
+		DEAFA8461DA0B785008D61D4 /* UI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UI.swift; sourceTree = "<group>"; };
+		DEAFA8481DA0BD1C008D61D4 /* GDButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GDButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DE68BF461CF15D32006B02F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE68BF5E1CF15D33006B02F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE68BF691CF15D33006B02F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DE68BF401CF15D32006B02F1 = {
+			isa = PBXGroup;
+			children = (
+				DE68BF4B1CF15D33006B02F1 /* GemDefense */,
+				DE68BF641CF15D33006B02F1 /* GemDefenseTests */,
+				DE68BF6F1CF15D33006B02F1 /* GemDefenseUITests */,
+				DE68BF4A1CF15D32006B02F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DE68BF4A1CF15D32006B02F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DE68BF491CF15D32006B02F1 /* GemDefense.app */,
+				DE68BF611CF15D33006B02F1 /* GemDefenseTests.xctest */,
+				DE68BF6C1CF15D33006B02F1 /* GemDefenseUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DE68BF4B1CF15D33006B02F1 /* GemDefense */ = {
+			isa = PBXGroup;
+			children = (
+				DE68BF901CF7FB23006B02F1 /* Enemy.swift */,
+				DE68BF8A1CF54169006B02F1 /* astar.swift */,
+				DE68BF8B1CF54169006B02F1 /* Map.swift */,
+				DE68BF8C1CF54169006B02F1 /* SwiftPriorityQueue.swift */,
+				DE68BF4C1CF15D33006B02F1 /* AppDelegate.swift */,
+				DE68BF501CF15D33006B02F1 /* GameScene.swift */,
+				DE68BF521CF15D33006B02F1 /* GameViewController.swift */,
+				DE68BF541CF15D33006B02F1 /* Main.storyboard */,
+				DE68BF571CF15D33006B02F1 /* Assets.xcassets */,
+				DE68BF591CF15D33006B02F1 /* LaunchScreen.storyboard */,
+				DE68BF5C1CF15D33006B02F1 /* Info.plist */,
+				DE68BF801CF1632C006B02F1 /* Tower.swift */,
+				DEAFA8461DA0B785008D61D4 /* UI.swift */,
+				DEAFA8481DA0BD1C008D61D4 /* GDButton.swift */,
+				DE8F84E51DC3D9BE008FDEB4 /* SKMultilineLabel.swift */,
+				DE09025C200732CB00815439 /* Damage.swift */,
+				DE09025E2007339300815439 /* Armor.swift */,
+			);
+			path = GemDefense;
+			sourceTree = "<group>";
+		};
+		DE68BF641CF15D33006B02F1 /* GemDefenseTests */ = {
+			isa = PBXGroup;
+			children = (
+				DE68BF651CF15D33006B02F1 /* GemDefenseTests.swift */,
+				DE68BF671CF15D33006B02F1 /* Info.plist */,
+			);
+			path = GemDefenseTests;
+			sourceTree = "<group>";
+		};
+		DE68BF6F1CF15D33006B02F1 /* GemDefenseUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DE68BF701CF15D33006B02F1 /* GemDefenseUITests.swift */,
+				DE68BF721CF15D33006B02F1 /* Info.plist */,
+			);
+			path = GemDefenseUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DE68BF481CF15D32006B02F1 /* GemDefense */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE68BF751CF15D33006B02F1 /* Build configuration list for PBXNativeTarget "GemDefense" */;
+			buildPhases = (
+				DE68BF451CF15D32006B02F1 /* Sources */,
+				DE68BF461CF15D32006B02F1 /* Frameworks */,
+				DE68BF471CF15D32006B02F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GemDefense;
+			productName = GemDefense;
+			productReference = DE68BF491CF15D32006B02F1 /* GemDefense.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DE68BF601CF15D33006B02F1 /* GemDefenseTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE68BF781CF15D33006B02F1 /* Build configuration list for PBXNativeTarget "GemDefenseTests" */;
+			buildPhases = (
+				DE68BF5D1CF15D33006B02F1 /* Sources */,
+				DE68BF5E1CF15D33006B02F1 /* Frameworks */,
+				DE68BF5F1CF15D33006B02F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE68BF631CF15D33006B02F1 /* PBXTargetDependency */,
+			);
+			name = GemDefenseTests;
+			productName = GemDefenseTests;
+			productReference = DE68BF611CF15D33006B02F1 /* GemDefenseTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DE68BF6B1CF15D33006B02F1 /* GemDefenseUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DE68BF7B1CF15D33006B02F1 /* Build configuration list for PBXNativeTarget "GemDefenseUITests" */;
+			buildPhases = (
+				DE68BF681CF15D33006B02F1 /* Sources */,
+				DE68BF691CF15D33006B02F1 /* Frameworks */,
+				DE68BF6A1CF15D33006B02F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DE68BF6E1CF15D33006B02F1 /* PBXTargetDependency */,
+			);
+			name = GemDefenseUITests;
+			productName = GemDefenseUITests;
+			productReference = DE68BF6C1CF15D33006B02F1 /* GemDefenseUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DE68BF411CF15D32006B02F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Peter Holko";
+				TargetAttributes = {
+					DE68BF481CF15D32006B02F1 = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = S94K2YP88N;
+						LastSwiftMigration = 0920;
+					};
+					DE68BF601CF15D33006B02F1 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0920;
+						TestTargetID = DE68BF481CF15D32006B02F1;
+					};
+					DE68BF6B1CF15D33006B02F1 = {
+						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0920;
+						TestTargetID = DE68BF481CF15D32006B02F1;
+					};
+				};
+			};
+			buildConfigurationList = DE68BF441CF15D32006B02F1 /* Build configuration list for PBXProject "GemDefense" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DE68BF401CF15D32006B02F1;
+			productRefGroup = DE68BF4A1CF15D32006B02F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DE68BF481CF15D32006B02F1 /* GemDefense */,
+				DE68BF601CF15D33006B02F1 /* GemDefenseTests */,
+				DE68BF6B1CF15D33006B02F1 /* GemDefenseUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DE68BF471CF15D32006B02F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE68BF5B1CF15D33006B02F1 /* LaunchScreen.storyboard in Resources */,
+				DE68BF581CF15D33006B02F1 /* Assets.xcassets in Resources */,
+				DE68BF561CF15D33006B02F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE68BF5F1CF15D33006B02F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE68BF6A1CF15D33006B02F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DE68BF451CF15D32006B02F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE68BF511CF15D33006B02F1 /* GameScene.swift in Sources */,
+				DE68BF531CF15D33006B02F1 /* GameViewController.swift in Sources */,
+				DE09025D200732CB00815439 /* Damage.swift in Sources */,
+				DEAFA8491DA0BD1C008D61D4 /* GDButton.swift in Sources */,
+				DEAFA8471DA0B786008D61D4 /* UI.swift in Sources */,
+				DE68BF8D1CF54169006B02F1 /* astar.swift in Sources */,
+				DE68BF4D1CF15D33006B02F1 /* AppDelegate.swift in Sources */,
+				DE8F84E61DC3D9BE008FDEB4 /* SKMultilineLabel.swift in Sources */,
+				DE68BF911CF7FB23006B02F1 /* Enemy.swift in Sources */,
+				DE68BF8E1CF54169006B02F1 /* Map.swift in Sources */,
+				DE68BF811CF1632C006B02F1 /* Tower.swift in Sources */,
+				DE09025F2007339300815439 /* Armor.swift in Sources */,
+				DE68BF8F1CF54169006B02F1 /* SwiftPriorityQueue.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE68BF5D1CF15D33006B02F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE68BF661CF15D33006B02F1 /* GemDefenseTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DE68BF681CF15D33006B02F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE68BF711CF15D33006B02F1 /* GemDefenseUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DE68BF631CF15D33006B02F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE68BF481CF15D32006B02F1 /* GemDefense */;
+			targetProxy = DE68BF621CF15D33006B02F1 /* PBXContainerItemProxy */;
+		};
+		DE68BF6E1CF15D33006B02F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DE68BF481CF15D32006B02F1 /* GemDefense */;
+			targetProxy = DE68BF6D1CF15D33006B02F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DE68BF541CF15D33006B02F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE68BF551CF15D33006B02F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DE68BF591CF15D33006B02F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DE68BF5A1CF15D33006B02F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DE68BF731CF15D33006B02F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DE68BF741CF15D33006B02F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DE68BF761CF15D33006B02F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = GemDefense/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = holko.gemtd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		DE68BF771CF15D33006B02F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = GemDefense/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = holko.gemtd;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		DE68BF791CF15D33006B02F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = GemDefenseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.GemDefenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GemDefense.app/GemDefense";
+			};
+			name = Debug;
+		};
+		DE68BF7A1CF15D33006B02F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GemDefenseTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.GemDefenseTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GemDefense.app/GemDefense";
+			};
+			name = Release;
+		};
+		DE68BF7C1CF15D33006B02F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = GemDefenseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.GemDefenseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = GemDefense;
+			};
+			name = Debug;
+		};
+		DE68BF7D1CF15D33006B02F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = GemDefenseUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ph.GemDefenseUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = GemDefense;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DE68BF441CF15D32006B02F1 /* Build configuration list for PBXProject "GemDefense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE68BF731CF15D33006B02F1 /* Debug */,
+				DE68BF741CF15D33006B02F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE68BF751CF15D33006B02F1 /* Build configuration list for PBXNativeTarget "GemDefense" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE68BF761CF15D33006B02F1 /* Debug */,
+				DE68BF771CF15D33006B02F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE68BF781CF15D33006B02F1 /* Build configuration list for PBXNativeTarget "GemDefenseTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE68BF791CF15D33006B02F1 /* Debug */,
+				DE68BF7A1CF15D33006B02F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DE68BF7B1CF15D33006B02F1 /* Build configuration list for PBXNativeTarget "GemDefenseUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DE68BF7C1CF15D33006B02F1 /* Debug */,
+				DE68BF7D1CF15D33006B02F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DE68BF411CF15D32006B02F1 /* Project object */;
+}
