@@ -9,6 +9,24 @@
 import SpriteKit
 import DeviceCheck
 
+let UI_WIDTH_REQ = 702
+let UI_HEIGHT_REQ = 375
+
+let BG_WIDTH = 520
+let TEXTAREA_WIDTH = 168
+
+let BASE_WIDTH = 667
+let BASE_HEIGHT = 375
+
+let X_WIDTH = 812
+let X_SAFEAREA_X = 44
+let X_SAFEAREA_BOTTOM = 21
+
+let PAN_Y_BASE = -168
+let PAN_Y_SE = -212
+let PAN_Y_PLUS = 0
+
+
 func +(left: CGPoint, right: CGPoint) -> CGPoint {
     return CGPoint(x: left.x + right.x, y: left.y + right.y)
 }
@@ -51,6 +69,7 @@ var gameLevel : Int = 0
 var qualityLevel : Int = 0
 
 class GameScene: SKScene {
+    let bgTexture = SKSpriteNode(imageNamed: "bg_texture")
     let bg = SKSpriteNode(imageNamed: "bg")
     
     let westArrow = SKSpriteNode(imageNamed: "westarrow")
@@ -186,7 +205,6 @@ class GameScene: SKScene {
     
     func resetGame() {
 
-        
         gameLevel = 0
         qualityLevel = 0
         
@@ -238,18 +256,26 @@ class GameScene: SKScene {
     
     func initBackground() {
         backgroundColor = SKColor.black
+        var modifierPosX = 0
+        
+        if(Int(UIScreen.main.bounds.size.width) >= X_WIDTH) {
+            modifierPosX = X_SAFEAREA_X
+        }
+        
+        bgTexture.anchorPoint = CGPoint(x: 0, y: 0)
+        bgTexture.zPosition = -2.0
+        addChild(bgTexture)
         
         bg.anchorPoint = CGPoint(x: 0, y: 0)
-        bg.position = CGPoint(x: 0, y: -168)
+        bg.position = CGPoint(x: modifierPosX, y: -129)
         bg.zPosition = -1.0
         addChild(bg)
     }
     
     func setupLabel() {
-        
         let frame1 = CGRect(
-            x: 500,
-            y: 57,
+            x: 0,
+            y: 0,
             width: 160,
             height: 300)
         
@@ -263,8 +289,8 @@ class GameScene: SKScene {
         self.view?.addSubview(infoLabel)
         
         let frame2 = CGRect(
-            x: 175,
-            y: 115,
+            x: 0,
+            y: 0,
             width: 160,
             height: 300)
         
@@ -277,9 +303,12 @@ class GameScene: SKScene {
         
         self.view?.addSubview(upgradeLabel)
         
+        let viewPoint = self.convertPoint(toView: CGPoint(x: ui.lostSprite.position.x,
+                                                          y: ui.lostSprite.position.y))
+        
         let frame3 = CGRect(
-            x: 250,
-            y: 85,
+            x: viewPoint.x + 70,
+            y: viewPoint.y + 45,
             width: 160,
             height: 25)
         
@@ -324,7 +353,7 @@ class GameScene: SKScene {
                 }
                 
             } else if recognizer.state == .changed {
-                //Pan chnaged
+                //Pan changed
                 var translation = recognizer.translation(in: recognizer.view!)
                 translation = CGPoint(x: translation.x, y: -translation.y)
                 
@@ -529,14 +558,16 @@ class GameScene: SKScene {
     
     func upgradeAction() {
         print("Upgrade Action")
+        let viewPoint = self.convertPoint(toView: CGPoint(x: ui.upgradeTextAreaSprite.position.x,
+                                                          y: ui.upgradeTextAreaSprite.position.y))
         
         ui.upgradeTextAreaSprite.isHidden = false
         upgradeLabel.isHidden = false
         
         upgradeLabel.text = getUpgradeText()
         upgradeLabel.frame =  CGRect(
-            x: 175,
-            y: 115,
+            x: viewPoint.x - (ui.upgradeTextAreaSprite.size.width) / 2 + 8,
+            y: viewPoint.y - (ui.upgradeTextAreaSprite.size.height) / 2 + 8,
             width: 160,
             height: 150)
         upgradeLabel.sizeToFit()
@@ -814,9 +845,12 @@ class GameScene: SKScene {
     }
     
     func setInfoBoxText() {
+        let viewPoint = self.convertPoint(toView: CGPoint(x: ui.panelSprite.position.x,
+                                                          y: ui.panelSprite.position.y))
+        
         infoLabel.text = selectedTower.getInfoBox()
         infoLabel.frame =  CGRect(
-            x: 500,
+            x: Int(viewPoint.x) + 15,
             y: 57,
             width: 160,
             height: 150)
@@ -1647,9 +1681,14 @@ class GameScene: SKScene {
     func boundLayerPos(_ aNewPosition: CGPoint) -> CGPoint {
         let winSize = self.size
         var retval = aNewPosition
+        var boundX = -37
+        
+        if(Int(UIScreen.main.bounds.width) > UI_WIDTH_REQ) {
+            boundX = 0
+        }
         
         retval.x = CGFloat(min(retval.x, 0))
-        retval.x = CGFloat(max(retval.x, -37))
+        retval.x = CGFloat(max(retval.x, CGFloat(boundX)))
         retval.y = CGFloat(min(retval.y, 0))
         retval.y = CGFloat(max(retval.y, -(bg.size.height) + winSize.height - 22))
         

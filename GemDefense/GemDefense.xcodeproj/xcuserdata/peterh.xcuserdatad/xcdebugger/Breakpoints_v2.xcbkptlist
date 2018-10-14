@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/Map.swift"
-            timestampString = "544645671.626862"
+            timestampString = "561092102.2460949"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "Map"
             landmarkType = "3">
          </BreakpointContent>
@@ -26,7 +26,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/Tower.swift"
-            timestampString = "543814600.598587"
+            timestampString = "561092102.2517411"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "187"
@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/Map.swift"
-            timestampString = "544645671.627033"
+            timestampString = "561092102.252502"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "100"
-            endingLineNumber = "100"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
             landmarkName = "getTile(x:y:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -58,27 +58,27 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/Map.swift"
-            timestampString = "544645671.627196"
+            timestampString = "561092102.254316"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "getTile(x:y:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GemDefense/Map.swift"
+            timestampString = "561092102.254935"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "96"
             endingLineNumber = "96"
-            landmarkName = "getTile(x:y:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "GemDefense/Map.swift"
-            timestampString = "544645671.627316"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "97"
-            endingLineNumber = "97"
             landmarkName = "getTile(x:y:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -122,7 +122,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/Tower.swift"
-            timestampString = "543814600.601468"
+            timestampString = "561092102.2572449"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "111"
@@ -186,11 +186,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.011758"
+            timestampString = "561092102.258261"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "723"
-            endingLineNumber = "723"
+            startingLineNumber = "754"
+            endingLineNumber = "754"
             landmarkName = "processCombine()"
             landmarkType = "7">
          </BreakpointContent>
@@ -202,11 +202,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.0160739"
+            timestampString = "561092102.303512"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "992"
-            endingLineNumber = "992"
+            startingLineNumber = "1026"
+            endingLineNumber = "1026"
             landmarkName = "initSpecialTowers()"
             landmarkType = "7">
          </BreakpointContent>
@@ -218,11 +218,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.016225"
+            timestampString = "561092102.312335"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1037"
-            endingLineNumber = "1037"
+            startingLineNumber = "1071"
+            endingLineNumber = "1071"
             landmarkName = "setUIButtons()"
             landmarkType = "7">
          </BreakpointContent>
@@ -234,11 +234,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.016325"
+            timestampString = "561092102.316952"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "477"
-            endingLineNumber = "477"
+            startingLineNumber = "506"
+            endingLineNumber = "506"
             landmarkName = "processSelectPhase(_:touchedNode:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -250,11 +250,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.016438"
+            timestampString = "561092102.320971"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "754"
-            endingLineNumber = "754"
+            startingLineNumber = "785"
+            endingLineNumber = "785"
             landmarkName = "processCombineSpecial()"
             landmarkType = "7">
          </BreakpointContent>
@@ -266,11 +266,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.016539"
+            timestampString = "561092102.324882"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1038"
-            endingLineNumber = "1038"
+            startingLineNumber = "1072"
+            endingLineNumber = "1072"
             landmarkName = "setUIButtons()"
             landmarkType = "7">
          </BreakpointContent>
@@ -282,11 +282,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.018525"
+            timestampString = "561092102.32812"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "381"
-            endingLineNumber = "381"
+            startingLineNumber = "410"
+            endingLineNumber = "410"
             landmarkName = "touchesEnded(_:with:)"
             landmarkType = "7">
             <Locations>
@@ -330,11 +330,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.018748"
+            timestampString = "561092102.330919"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "369"
-            endingLineNumber = "369"
+            startingLineNumber = "398"
+            endingLineNumber = "398"
             landmarkName = "touchesEnded(_:with:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -346,7 +346,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/Tower.swift"
-            timestampString = "543814600.602767"
+            timestampString = "561092102.333904"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "430"
@@ -362,11 +362,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.018873"
+            timestampString = "561092102.334347"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1689"
-            endingLineNumber = "1689"
+            startingLineNumber = "1728"
+            endingLineNumber = "1728"
             landmarkName = "drawRangeCircle(center:radius:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -378,11 +378,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.018979"
+            timestampString = "561092102.33749"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1705"
-            endingLineNumber = "1705"
+            startingLineNumber = "1744"
+            endingLineNumber = "1744"
             landmarkName = "drawCrit(critDamage:enemyPos:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -394,11 +394,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.0190721"
+            timestampString = "561092102.34015"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1691"
-            endingLineNumber = "1691"
+            startingLineNumber = "1730"
+            endingLineNumber = "1730"
             landmarkName = "drawRangeCircle(center:radius:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -410,11 +410,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.019145"
+            timestampString = "561092102.3428839"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1691"
-            endingLineNumber = "1691"
+            startingLineNumber = "1730"
+            endingLineNumber = "1730"
             landmarkName = "drawRangeCircle(center:radius:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -426,7 +426,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/Tower.swift"
-            timestampString = "543814600.603314"
+            timestampString = "561092102.350188"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "391"
@@ -442,11 +442,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.019308"
+            timestampString = "561092102.351485"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1713"
-            endingLineNumber = "1713"
+            startingLineNumber = "1752"
+            endingLineNumber = "1752"
             landmarkName = "drawCrit(critDamage:enemyPos:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -506,11 +506,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.019471"
+            timestampString = "561092102.358453"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1180"
-            endingLineNumber = "1180"
+            startingLineNumber = "1214"
+            endingLineNumber = "1214"
             landmarkName = "findPath(flying:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -522,11 +522,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.019546"
+            timestampString = "561092102.361297"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1179"
-            endingLineNumber = "1179"
+            startingLineNumber = "1213"
+            endingLineNumber = "1213"
             landmarkName = "findPath(flying:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -538,11 +538,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.019634"
+            timestampString = "561092102.364646"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1199"
-            endingLineNumber = "1199"
+            startingLineNumber = "1233"
+            endingLineNumber = "1233"
             landmarkName = "findPath(flying:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -554,11 +554,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.019716"
+            timestampString = "561092102.367703"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1201"
-            endingLineNumber = "1201"
+            startingLineNumber = "1235"
+            endingLineNumber = "1235"
             landmarkName = "findPath(flying:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -570,11 +570,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.019828"
+            timestampString = "561092102.370262"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "795"
-            endingLineNumber = "795"
+            startingLineNumber = "826"
+            endingLineNumber = "826"
             landmarkName = "setSelectedTower(tower:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -586,7 +586,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/Tower.swift"
-            timestampString = "543814600.6042041"
+            timestampString = "561092102.378374"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "497"
@@ -602,11 +602,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.019931"
+            timestampString = "561092102.378535"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1238"
-            endingLineNumber = "1238"
+            startingLineNumber = "1272"
+            endingLineNumber = "1272"
             landmarkName = "createEnemy()"
             landmarkType = "7">
          </BreakpointContent>
@@ -618,7 +618,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/Tower.swift"
-            timestampString = "543814600.604417"
+            timestampString = "561092102.381186"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "461"
@@ -634,7 +634,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/Tower.swift"
-            timestampString = "543814600.604489"
+            timestampString = "561092102.3813601"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "464"
@@ -650,7 +650,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/Tower.swift"
-            timestampString = "543814600.604558"
+            timestampString = "561092102.381705"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "463"
@@ -714,11 +714,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.02013"
+            timestampString = "561092102.3821501"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "663"
-            endingLineNumber = "663"
+            startingLineNumber = "694"
+            endingLineNumber = "694"
             landmarkName = "processPlace()"
             landmarkType = "7">
          </BreakpointContent>
@@ -730,11 +730,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.020209"
+            timestampString = "561092102.384428"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "661"
-            endingLineNumber = "661"
+            startingLineNumber = "692"
+            endingLineNumber = "692"
             landmarkName = "processPlace()"
             landmarkType = "7">
          </BreakpointContent>
@@ -746,11 +746,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.020311"
+            timestampString = "561092102.386346"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "662"
-            endingLineNumber = "662"
+            startingLineNumber = "693"
+            endingLineNumber = "693"
             landmarkName = "processPlace()"
             landmarkType = "7">
          </BreakpointContent>
@@ -762,11 +762,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.020401"
+            timestampString = "561092102.389133"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1182"
-            endingLineNumber = "1182"
+            startingLineNumber = "1216"
+            endingLineNumber = "1216"
             landmarkName = "findPath(flying:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -778,11 +778,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.020486"
+            timestampString = "561092102.392078"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1189"
-            endingLineNumber = "1189"
+            startingLineNumber = "1223"
+            endingLineNumber = "1223"
             landmarkName = "findPath(flying:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -794,11 +794,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.020552"
+            timestampString = "561092102.394276"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1196"
-            endingLineNumber = "1196"
+            startingLineNumber = "1230"
+            endingLineNumber = "1230"
             landmarkName = "findPath(flying:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -810,11 +810,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.020637"
+            timestampString = "561092102.396394"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "672"
-            endingLineNumber = "672"
+            startingLineNumber = "703"
+            endingLineNumber = "703"
             landmarkName = "processPlace()"
             landmarkType = "7">
          </BreakpointContent>
@@ -826,11 +826,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.020732"
+            timestampString = "561092102.398237"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "758"
-            endingLineNumber = "758"
+            startingLineNumber = "789"
+            endingLineNumber = "789"
             landmarkName = "processCombineSpecial()"
             landmarkType = "7">
          </BreakpointContent>
@@ -842,11 +842,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.0208"
+            timestampString = "561092102.401165"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "762"
-            endingLineNumber = "762"
+            startingLineNumber = "793"
+            endingLineNumber = "793"
             landmarkName = "processUpgradeTower()"
             landmarkType = "7">
          </BreakpointContent>
@@ -858,11 +858,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.0208859"
+            timestampString = "561092102.404825"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "127"
-            endingLineNumber = "127"
+            startingLineNumber = "146"
+            endingLineNumber = "146"
             landmarkName = "init(size:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -874,12 +874,108 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "GemDefense/GameScene.swift"
-            timestampString = "548572293.020973"
+            timestampString = "561092102.407655"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "1748"
-            endingLineNumber = "1748"
+            startingLineNumber = "1787"
+            endingLineNumber = "1787"
             landmarkName = "uploadScore(name:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GemDefense/astar.swift"
+            timestampString = "561092102.411289"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "astar(_:goalTestFn:successorFn:heuristicFn:)"
+            landmarkType = "9">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GemDefense/GameScene.swift"
+            timestampString = "561092102.411973"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1683"
+            endingLineNumber = "1683"
+            landmarkName = "boundLayerPos(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GemDefense/UI.swift"
+            timestampString = "561092102.415234"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "78"
+            endingLineNumber = "78"
+            landmarkName = "setPanel()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GemDefense/GameScene.swift"
+            timestampString = "561092102.416068"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "851"
+            endingLineNumber = "851"
+            landmarkName = "setInfoBoxText()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GemDefense/GameScene.swift"
+            timestampString = "561092102.419504"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "270"
+            endingLineNumber = "270"
+            landmarkName = "initBackground()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "GemDefense/GameScene.swift"
+            timestampString = "561092102.4215389"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "265"
+            endingLineNumber = "265"
+            landmarkName = "initBackground()"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

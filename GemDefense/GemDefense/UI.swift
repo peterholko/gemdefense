@@ -69,10 +69,22 @@ class UI : SKNode {
     }
     
     func setPanel() {
-        let panelX = swidth - panelSprite.size.width
+        var panelX = 0
+        var panelY = 0
+        
+        if(Int(swidth) >= X_WIDTH) {
+            panelX = BG_WIDTH + 1 + X_SAFEAREA_X
+        }
+        else if(Int(swidth) > UI_WIDTH_REQ) {
+            panelX = BG_WIDTH + 1
+        } else {
+            panelX = Int(swidth) - Int(panelSprite.size.width)
+        }
+        
+        panelY = Int(sheight) - BASE_HEIGHT
         
         panelSprite.anchorPoint = CGPoint(x: 0, y: 0)
-        panelSprite.position = CGPoint(x: panelX, y: 0)
+        panelSprite.position = CGPoint(x: panelX, y: panelY)
         
         addChild(panelSprite)
         
@@ -85,8 +97,14 @@ class UI : SKNode {
     }
     
     func setTopMenu() {
+        var modifierX = 0
+        
+        if(Int(swidth) >= X_WIDTH) {
+            modifierX = X_SAFEAREA_X
+        }
+        
         topmenuSprite.anchorPoint = CGPoint(x: 0, y: 0)
-        topmenuSprite.position = CGPoint(x: 0, y: sheight - topmenuSprite.size.height)
+        topmenuSprite.position = CGPoint(x: modifierX, y: Int(sheight) - Int(topmenuSprite.size.height))
         
         addChild(topmenuSprite)
     }

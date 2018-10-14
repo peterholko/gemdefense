@@ -18,7 +18,6 @@ enum Tile {
 struct Point: Hashable {
     let x: Int
     let y: Int
-    var hashValue: Int { return (Int) (x.hashValue * 31 + y.hashValue) }
 }
 
 func == (lhs: Point, rhs: Point) -> Bool {
